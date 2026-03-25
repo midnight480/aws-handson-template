@@ -10,7 +10,7 @@
       "version": "lts"
     }
   },
-  "postCreateCommand": "aws --version && python3 --version && node --version",
+  "postCreateCommand": "aws --version && python3 --version && node --version && npm --version",
   "customizations": {
     "vscode": {
       "extensions": [
