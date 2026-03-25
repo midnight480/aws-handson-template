@@ -11,7 +11,9 @@ AWS ハンズオン用のテンプレートリポジトリです。
 Codespace が起動すると、以下のツールが自動的にインストールされます:
 
 - **AWS CLI v2** - AWS リソースの操作
-- **Python 3** - Lambda 関数の開発
+- **Python 3.12** - Lambda 関数の開発（`python` / `pip` コマンドでも利用可）
+- **Node.js (LTS)** - JavaScript/TypeScript 開発
+- **npm** - パッケージ管理
 
 ## 📁 含まれるファイル
 
