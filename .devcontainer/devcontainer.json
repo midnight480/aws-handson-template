@@ -10,7 +10,7 @@
       "version": "lts"
     }
   },
-  "postCreateCommand": "aws --version && python3 --version && node --version && npm --version",
+  "postCreateCommand": "echo 'alias python=python3' >> ~/.bashrc && echo 'alias pip=pip3' >> ~/.bashrc && source ~/.bashrc && aws --version && python3 --version && node --version && npm --version",
   "customizations": {
     "vscode": {
       "extensions": [
