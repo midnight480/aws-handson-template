@@ -1,0 +1,29 @@
+# AWS credentials
+.aws/
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node.js
+node_modules/
+
+# Temporary files
+*.tmp
+*.log
